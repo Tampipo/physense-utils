@@ -77,3 +77,5 @@ def heaviside(
     array of same shape as x.
     """
     return np.heaviside(x - x0, value_at_zero)
+
+__all__ = ["gaussian", "sinc", "heaviside"]
