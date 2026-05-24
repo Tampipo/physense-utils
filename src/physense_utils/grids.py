@@ -74,6 +74,3 @@ class Grid2D:
     @property
     def dy(self) -> float:
         return (self.y_max - self.y_min) / (self.ny - 1)
-
-
-__all__ = ["Grid1D", "Grid2D"]

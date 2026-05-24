@@ -67,6 +67,3 @@ def fft_frequencies(n: int, dx: float) -> NDArray[np.float64]:
         Angular frequencies in rad/unit, sorted increasingly.
     """
     return np.fft.fftshift(np.fft.fftfreq(n, d=dx)) * 2 * np.pi
-
-
-__all__ = ["fft1d", "ifft1d", "fft_frequencies"]
